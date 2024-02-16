@@ -33,7 +33,12 @@ https://alsrb6013.github.io/project_1_orm/
 
 ### 3.1 프로젝트 구조
 
-![file-tree](https://github.com/alsrb6013/project_1_orm/assets/62873999/a9a172d4-0b5d-4f3c-88ed-8eb9e5963334)
+```
+📦Health_Calender
+ ┣ 📜index.html
+ ┣ 📜script.js
+ ┗ 📜style.css
+```
 
 ### 3.2 개발 일정(WBS)
 * 아래 일정표는 머메이드로 작성했습니다.
