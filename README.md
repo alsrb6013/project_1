@@ -30,7 +30,7 @@
 https://alsrb6013.github.io/project_1_orm/
 
 ## 3. 요구사항 명세와 기능 명세
-```
+
     sequenceDiagram
     actor 사용자 as 사용자
     participant 캘린더 as 캘린더
@@ -48,7 +48,6 @@ https://alsrb6013.github.io/project_1_orm/
     캘린더->>사용자: 답변 출력
     사용자-->>캘린더: 추가 질문 있음
     Note over 사용자, 캘린더: 과정 반복
-```
 
 ## 4. 프로젝트 구조와 개발 일정
 
