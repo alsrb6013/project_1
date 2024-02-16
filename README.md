@@ -29,18 +29,13 @@
 
 https://alsrb6013.github.io/project_1_orm/
 
+## 3. 프로젝트 구조와 개발 일정
 
-### 3. 요구사항 명세와 기능 명세
-
-
-
-## 4. 프로젝트 구조와 개발 일정
-
-### 4.1 프로젝트 구조
+### 3.1 프로젝트 구조
 
 ![file-tree](https://github.com/alsrb6013/project_1_orm/assets/62873999/a9a172d4-0b5d-4f3c-88ed-8eb9e5963334)
 
-### 4.2 개발 일정(WBS)
+### 3.2 개발 일정(WBS)
 * 아래 일정표는 머메이드로 작성했습니다.
 ```mermaid
 gantt
