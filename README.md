@@ -29,9 +29,30 @@
 
 https://alsrb6013.github.io/project_1_orm/
 
-## 3. 프로젝트 구조와 개발 일정
+## 3. 요구사항 명세와 기능 명세
+```
+    sequenceDiagram
+    actor 사용자 as 사용자
+    participant 캘린더 as 캘린더
+    participant 데이터베이스 as 데이터베이스
+    participant API as chatGPT
 
-### 3.1 프로젝트 구조
+    사용자->>캘린더: 운동 기록
+    캘린더->>데이터베이스: 운동 기록 저장
+    데이터베이스->>사용자: 운동 기록 출력
+    Note over 사용자,데이터베이스: 입력 데이터 확인
+    캘린더-->>사용자: 입력 데이터 없음
+    사용자->>캘린더: 운동 조언 챗봇 사용
+    캘린더->>API: 입력 데이터 전송
+    API->>캘린더: 운동 조언 답변 생성 후 전달
+    캘린더->>사용자: 답변 출력
+    사용자-->>캘린더: 추가 질문 있음
+    Note over 사용자, 캘린더: 과정 반복
+```
+
+## 4. 프로젝트 구조와 개발 일정
+
+### 4.1 프로젝트 구조
 
 ```
 📦Health_Calender
@@ -40,7 +61,7 @@ https://alsrb6013.github.io/project_1_orm/
  ┗ 📜style.css
 ```
 
-### 3.2 개발 일정(WBS)
+### 4.2 개발 일정(WBS)
 * 아래 일정표는 머메이드로 작성했습니다.
 ```mermaid
 gantt
